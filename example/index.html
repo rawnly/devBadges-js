@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Example </title>
+
+    <style media="screen">
+      .button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button" onclick="badges.destroy()">
+      DESTROY
+    </button>
+
+    <script src="../dist/dev-badges.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var badges = new DevBadges();
+      badges.render();
+    </script>
+  </body>
+</html>
