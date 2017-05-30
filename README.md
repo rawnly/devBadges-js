@@ -8,7 +8,7 @@
     $ npm install devbadges-js
   ```
 
-- ### CDN
+- ### CDN
   ```js
     // DEV BADGES CDN
     <script src="URL"></script>
