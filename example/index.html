@@ -5,22 +5,39 @@
     <title> Example </title>
 
     <style media="screen">
+    body, html {
+      font-size: 18px;
+    }
       .button {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+
+        background: #076ED9;
+        color: #fff;
+
+        border: 1px solid #076ED9;
+
+        transition: all .25s cubic-bezier(0.42, 0, 1, 1)
+      }
+
+      .button:hover {
+        color: #076ED9;
+        background: transparent;
+        border-radius: 2.5px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
     <button class="button" onclick="badges.destroy()">
-      DESTROY
+      DESTROY BADGES
     </button>
 
-    <script src="../dist/dev-badges.js" charset="utf-8"></script>
+    <script src="../dist/dev-badges.min.js" charset="utf-8"></script>
     <script type="text/javascript">
-      var badges = new DevBadges();
+      var badges = new DevBadges(true);
       badges.render();
     </script>
   </body>

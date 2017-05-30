@@ -11,7 +11,7 @@
 - ### CDN
   ```js
     // DEV BADGES CDN
-    <script src="URL"></script>
+    <script src="https://cdn.rawgit.com/Rawnly/devBadges-js/8365a103/dist/dev-badges.min.js"></script>
   ```
 
 ## Usage
