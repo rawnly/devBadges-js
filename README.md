@@ -1,7 +1,7 @@
 # Dev Badges JS
 > Easy and fast as a `console.log`
 
-## Installation
+## Installation
 
 - ### NPM
   ```bash
