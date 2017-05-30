@@ -1,4 +1,4 @@
-class Debugger {
+class DevBadges {
   constructor(hideOnMouseOver = false, position = 'bottom') {
     this.animation = hideOnMouseOver;
 
